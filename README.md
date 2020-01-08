@@ -3,7 +3,7 @@
 | 项目名 | 博物馆助手APP—动静皆宜 |
 | --- |--- |
 | 项目负责人 | 陈丹莉 |
-| 项目进度 | 进行中 |
+| 项目进度 | 完成 |
 
 ### 背景：
 博物馆除了保留历史文化、更好地保存文物、展示文物的作用外，同时也承担开放给公众以学习教育娱乐，为社会发展提供服务，保障公民基本文化权益的义务。我国依然有许多博物馆对为不同游客提供更优质服务、提升浏览体验等处于探索阶段。对身障人士、多动症孩童等特殊群体的服务也常有不到位的情况，大大降低了这一群体的博物馆浏览体验。
@@ -32,3 +32,39 @@
 ### 人工智能概率性与用户痛点：
 - 语音识别准确率高达97%（讯飞语音识别即使离线识别准确率也达到 95%），支持最快 400 字每秒的听写。但语音识别的准确率还是会受到环境嘈杂程度、录入的声音清晰与否等因素影响。
 -  百度图像识别的准确率高达95%。图片像素低、糊、不清晰、物体特征不明显等都易影响图片识别的准确率。
+
+## 原型
+- 产品架构图
+![产品架构图.JPG](https://upload-images.jianshu.io/upload_images/9779994-eb8f9336bcf21574.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- 近期展览与活动
+![1.JPG](https://upload-images.jianshu.io/upload_images/9779994-6fd45e769d07942c.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- 虚拟展览
+![虚拟展览.JPG](https://upload-images.jianshu.io/upload_images/9779994-0d8e7c7d6a115953.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- “博物馆探险”之“知识问答”
+![知识问答.JPG](https://upload-images.jianshu.io/upload_images/9779994-6cd2e491513223ce.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- “博物馆探险”之“探索博物馆”中的图像识别
+![图像识别.JPG](https://upload-images.jianshu.io/upload_images/9779994-703f6335f5e58a64.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- 图像识别成功与失败示例
+![成功与失败示例.JPG](https://upload-images.jianshu.io/upload_images/9779994-b0338edf75dd2b5c.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- 语音转文字
+![语音转文字.JPG](https://upload-images.jianshu.io/upload_images/9779994-670cd49ff89499fc.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+### 产品原型
+- [产品原型](http://nfunm004.gitee.io/api_museum)
+- [产品原型rp文件下载](https://gitee.com/NFUNM004/api_museum/blob/master/%E5%8D%9A%E7%89%A9%E9%A6%86.rp)
+
+### 交互及界面设计、信息设计
+- 在“博物馆探险”—“探索博物馆”的交互功能中使用了图像识别API。
+- 将语音转化为文本，以文本信息的方式放入“我的收藏”，采用了语音识别API。
+
+### 口头操作说明 
+- 用户在首页能够查看近期展览和活动，并得知展览与活动相关的信息，以更快捷、全面地方式了解并参与博物馆的活动。如果用户错过了部分展览，可以在虚拟展览中进行浏览。
+- 在游览博物馆的过程中，用户能够通过“知识问答”和“探索博物馆”进行互动游戏，使浏览博物馆的过程更具趣味性。
+- 在语音导游中，通过语音转文字，能够听到或快速记录导游的解说，浏览路线则是提供了当前博物馆的示意图，提升用户的浏览体验。
+
